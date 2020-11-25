@@ -1,5 +1,5 @@
 ---
-title: tfShearlab:  A TensorFlow implementation of the digital shearlettransform
+title: 'tfShearlab:  A TensorFlow implementation of the digital shearlettransform'
 tags: 
     - Python
     - Julia
