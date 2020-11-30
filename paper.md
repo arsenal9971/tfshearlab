@@ -1287,7 +1287,7 @@ adjoint of the derivative of $\mathcal{T}$ at the point $f_i$.
 [H]
 
 **Input:** $\mathcal{T}$ forward operator, $\sigma, \tau > 0$, s.t.
-$\sigma\tau||\mathcal{T}||^2 < 1 $, $\gamma \in [0,1]$, $f_0\in X$,
+$\sigma\tau||\mathcal{T}||^2 < 1$, $\gamma \in [0,1]$, $f_0\in X$,
 $h_0\in Y$ and iterations $I$\
 
 **Output:** $f_{recon}$\
