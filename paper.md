@@ -11,7 +11,7 @@ authors:
     - name: Hector Andrade-Loarca
       affiliation: 1
     - name: Gitta Kutyniok
-      affiliation: 1,2,3
+      affiliation: "1,2,3"
 affiliations: 
     - name: Institut für Mathematik, Technische Universität Berlin, 10623 Berlin, Germany
       index: 1
