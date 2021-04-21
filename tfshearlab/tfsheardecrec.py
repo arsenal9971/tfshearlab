@@ -65,7 +65,7 @@ def tfsheardecadjoint2D(coeffstf, tfshearlets,tfdualFrameWeights):
     return tfftshift(tf.ifft2d(itfftshift(tf.multiply(Xfreqtf,1/tfdualFrameWeights))))
 
 # dual of reconstruction
-def shearrecadjoint2D(Xtf, tfshearlets):
+def tfshearrecadjoint2D(Xtf, tfshearlets):
     """Shearlet Decomposition function."""
     Xfreqtf = tfftshift(tf.fft2d(itfftshift(Xtf)))
     return tfftshift(tf.transpose(tf.ifft2d(tf.transpose(itfftshift(tf.multiply(tf.expand_dims(Xfreqtf,3),
